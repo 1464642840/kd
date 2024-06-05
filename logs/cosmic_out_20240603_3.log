@@ -1,0 +1,1009 @@
+2024-06-03 23:48:33.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:48:33.134+08:00
+2024-06-03 23:48:35.150  INFO   --- [Monitor-online-session-fetch-1/traceId:97f1898b55a0f86c/time:1717429715149] DB                                       : {traceId:4ccf6b61269baa0b} ----sql@sys->basedata#con2685----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:35.151  INFO   --- [Monitor-online-session-fetch-2/traceId:dafc8b732911f4ce/time:1717429715150] DB                                       : {traceId:7948138a8fa7e8} ----sql@sys->basedata#con2686----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:35.152  INFO   --- [Monitor-online-session-fetch-3/traceId:d6a5559881717aa4/time:1717429715151] DB                                       : {traceId:c29c13d47811de6b} ----sql@sys->basedata#con2687----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:45.254  INFO   --- [Monitor-online-session-fetch-1/traceId:3bc0221374ad982c/time:1717429725252] DB                                       : {traceId:54bca87543f182a} ----sql@sys->basedata#con2688----
+#cost:2ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:45.254  INFO   --- [Monitor-online-session-fetch-2/traceId:ff30d9ea4c96607/time:1717429725254] DB                                       : {traceId:7f3bf51f69b8a3d4} ----sql@sys->basedata#con2689----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:45.256  INFO   --- [Monitor-online-session-fetch-3/traceId:2a3ea335e7661f85/time:1717429725254] DB                                       : {traceId:1ae6d341ad61a28b} ----sql@sys->basedata#con2690----
+#cost:2ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:55.368  INFO   --- [Monitor-online-session-fetch-1/traceId:f2e1b51d34ecbffd/time:1717429735367] DB                                       : {traceId:9289bf9c83209980} ----sql@sys->basedata#con2691----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:55.369  INFO   --- [Monitor-online-session-fetch-2/traceId:58f25e9a040f533f/time:1717429735369] DB                                       : {traceId:511ae207429b30d9} ----sql@sys->basedata#con2692----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:48:55.370  INFO   --- [Monitor-online-session-fetch-3/traceId:5617a8c003984266/time:1717429735370] DB                                       : {traceId:e5e2b8107540076a} ----sql@sys->basedata#con2693----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:03.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:49:03.134+08:00
+2024-06-03 23:49:03.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:49:03.134+08:00
+2024-06-03 23:49:05.491  INFO   --- [Monitor-online-session-fetch-1/traceId:9ca902cff12a7ed6/time:1717429745490] DB                                       : {traceId:8944bd70df396f6c} ----sql@sys->basedata#con2694----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:05.493  INFO   --- [Monitor-online-session-fetch-2/traceId:88d6d3cfb4094ae0/time:1717429745492] DB                                       : {traceId:5a5fb9e2b708f75f} ----sql@sys->basedata#con2695----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:05.495  INFO   --- [Monitor-online-session-fetch-3/traceId:4a4c230db5a46f28/time:1717429745493] DB                                       : {traceId:9cd77c927944a3a8} ----sql@sys->basedata#con2696----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:15.610  INFO   --- [Monitor-online-session-fetch-1/traceId:7fc585ec39036504/time:1717429755609] DB                                       : {traceId:41b2d5dd09faf703} ----sql@sys->basedata#con2697----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:15.611  INFO   --- [Monitor-online-session-fetch-2/traceId:99234773bd04bece/time:1717429755610] DB                                       : {traceId:cfff1e77555fd8e9} ----sql@sys->basedata#con2698----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:15.612  INFO   --- [Monitor-online-session-fetch-3/traceId:214535fbe4bfaa4d/time:1717429755611] DB                                       : {traceId:5fb7abb62bbf0a01} ----sql@sys->basedata#con2699----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:25.713  INFO   --- [Monitor-online-session-fetch-1/traceId:1555d96f1db7ef54/time:1717429765712] DB                                       : {traceId:3285bfcb37935c8b} ----sql@sys->basedata#con2700----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:25.715  INFO   --- [Monitor-online-session-fetch-2/traceId:1e23e137d87ef9e0/time:1717429765714] DB                                       : {traceId:1a32c46ddd29cff8} ----sql@sys->basedata#con2701----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:25.715  INFO   --- [Monitor-online-session-fetch-3/traceId:bdf721a8390d3cd/time:1717429765715] DB                                       : {traceId:6ff007b4ea0ac3a7} ----sql@sys->basedata#con2702----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:32.561  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:49:33.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:49:33.134+08:00
+2024-06-03 23:49:33.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:49:33.134+08:00
+2024-06-03 23:49:35.834  INFO   --- [Monitor-online-session-fetch-1/traceId:2f6ac878144ed11f/time:1717429775832] DB                                       : {traceId:56a80d039b735959} ----sql@sys->basedata#con2703----
+#cost:2ms include(getconnection:0ms, result_handle:1ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:35.835  INFO   --- [Monitor-online-session-fetch-2/traceId:831dfd999f395fdd/time:1717429775834] DB                                       : {traceId:4648641d53597463} ----sql@sys->basedata#con2704----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:35.836  INFO   --- [Monitor-online-session-fetch-3/traceId:476bc9e35286a53a/time:1717429775836] DB                                       : {traceId:8907a181d367dd9c} ----sql@sys->basedata#con2705----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:45.946  INFO   --- [Monitor-online-session-fetch-1/traceId:fcce1a0e53794b98/time:1717429785945] DB                                       : {traceId:171ad2607bfc7862} ----sql@sys->basedata#con2706----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:45.948  INFO   --- [Monitor-online-session-fetch-2/traceId:523cff7b01f3f6f7/time:1717429785947] DB                                       : {traceId:ba0c0f8d702f178e} ----sql@sys->basedata#con2707----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:45.949  INFO   --- [Monitor-online-session-fetch-3/traceId:86b8eb6b4d4707d7/time:1717429785948] DB                                       : {traceId:9cb280909eb6cc46} ----sql@sys->basedata#con2708----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:56.178  INFO   --- [Monitor-online-session-fetch-1/traceId:d92fe100a2c2d47a/time:1717429796176] DB                                       : {traceId:73859f569747bc2e} ----sql@sys->basedata#con2709----
+#cost:2ms include(getconnection:1ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:56.179  INFO   --- [Monitor-online-session-fetch-2/traceId:f30d5ef73ea5603a/time:1717429796178] DB                                       : {traceId:37f8a0f40640ab58} ----sql@sys->basedata#con2710----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:49:56.181  INFO   --- [Monitor-online-session-fetch-3/traceId:c2b470263f145021/time:1717429796180] DB                                       : {traceId:7bb0462d1e81c50d} ----sql@sys->basedata#con2711----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:03.134  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:50:03.134+08:00
+2024-06-03 23:50:03.135  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:50:03.135+08:00
+2024-06-03 23:50:06.286  INFO   --- [Monitor-online-session-fetch-1/traceId:29c043fa79c6c3fd/time:1717429806285] DB                                       : {traceId:429e60334d19b0c} ----sql@sys->basedata#con2712----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:06.287  INFO   --- [Monitor-online-session-fetch-2/traceId:f67f32126793fa1d/time:1717429806286] DB                                       : {traceId:f8f12aefe6181aac} ----sql@sys->basedata#con2713----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:06.288  INFO   --- [Monitor-online-session-fetch-3/traceId:e906323c7b985772/time:1717429806287] DB                                       : {traceId:6f8c4223f8744965} ----sql@sys->basedata#con2714----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:17.008  INFO   --- [Monitor-online-session-fetch-1/traceId:a93d1da1ec97d3a4/time:1717429817006] DB                                       : {traceId:1384af578c7e64c6} ----sql@sys->basedata#con2715----
+#cost:2ms include(getconnection:1ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:17.059  INFO   --- [Monitor-online-session-fetch-2/traceId:6167f31049ac59d/time:1717429817057] DB                                       : {traceId:8b572da3ae83fbf3} ----sql@sys->basedata#con2716----
+#cost:2ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:17.109  INFO   --- [Monitor-online-session-fetch-3/traceId:b13c4f02a28c75a0/time:1717429817088] DB                                       : {traceId:dadfe2f5234bbede} ----sql@sys->basedata#con2717----
+#cost:15ms include(getconnection:7ms, result_handle:0ms, statement.execute:8ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:21.242  WARN   --- [ISC_DAEMON_TASK-5/traceId:78ae35c1a244daaa/time:1717429821240] kd.bos.ksql.shell.KDStatement            : {traceId:e7e65b714568c25e} setFetchSize param too small,will be set 1000.
+2024-06-03 23:50:24.255  WARN   --- [ISC_DAEMON_TASK-5/traceId:5a472b7b2fa0f282/time:1717429824255] kd.bos.ksql.shell.KDStatement            : {traceId:1af909b9804d1002} setFetchSize param too small,will be set 1000.
+2024-06-03 23:50:24.257  WARN   --- [ISC_DAEMON_TASK-5/traceId:5a472b7b2fa0f282/time:1717429824255] kd.bos.ksql.shell.KDStatement            : {traceId:1af909b9804d1002} setFetchSize param too small,will be set 1000.
+2024-06-03 23:50:24.258  WARN   --- [ISC_DAEMON_TASK-5/traceId:5a472b7b2fa0f282/time:1717429824255] kd.bos.ksql.shell.KDStatement            : {traceId:1af909b9804d1002} setFetchSize param too small,will be set 1000.
+2024-06-03 23:50:26.577  WARN   --- [ISC_TASK_WORKER-1/traceId:2da5ec06781de920/time:1717429826574] kd.bos.ksql.shell.KDStatement            : {traceId:40aa86ef86d4e434} setFetchSize param too small,will be set 1000.
+2024-06-03 23:50:28.522  INFO   --- [Monitor-online-session-fetch-1/traceId:71b7274944826012/time:1717429828520] DB                                       : {traceId:1eef392a7d3c87c9} ----sql@sys->basedata#con2725----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:28.524  INFO   --- [Monitor-online-session-fetch-2/traceId:644772fa0fd20948/time:1717429828522] DB                                       : {traceId:fa7e5ae36a6f130a} ----sql@sys->basedata#con2726----
+#cost:2ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:28.525  INFO   --- [Monitor-online-session-fetch-3/traceId:8f2549962e55146/time:1717429828524] DB                                       : {traceId:b5f4d7a4b7c0f26e} ----sql@sys->basedata#con2727----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:32.562  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:50:33.136  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:50:33.136+08:00
+2024-06-03 23:50:33.136  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:50:33.136+08:00
+2024-06-03 23:50:38.642  INFO   --- [Monitor-online-session-fetch-1/traceId:34522ee44a32c227/time:1717429838641] DB                                       : {traceId:ebb65ae339823ed3} ----sql@sys->basedata#con2728----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:38.644  INFO   --- [Monitor-online-session-fetch-2/traceId:ea0384a046b4254f/time:1717429838643] DB                                       : {traceId:a22e2d6f00f62fe0} ----sql@sys->basedata#con2729----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:38.645  INFO   --- [Monitor-online-session-fetch-3/traceId:a337b4199b3e9e8/time:1717429838644] DB                                       : {traceId:11821c4b28aa5d5a} ----sql@sys->basedata#con2730----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:48.740  INFO   --- [Monitor-online-session-fetch-1/traceId:2250bb78bdaff47e/time:1717429848738] DB                                       : {traceId:e1903730a0749c45} ----sql@sys->basedata#con2731----
+#cost:2ms include(getconnection:0ms, result_handle:1ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:48.742  INFO   --- [Monitor-online-session-fetch-2/traceId:e92a583dc9cf7e72/time:1717429848740] DB                                       : {traceId:2d534c8afa39b4e4} ----sql@sys->basedata#con2732----
+#cost:2ms include(getconnection:1ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:48.744  INFO   --- [Monitor-online-session-fetch-3/traceId:f39620e5cbf90f72/time:1717429848743] DB                                       : {traceId:d9679e320b324cb7} ----sql@sys->basedata#con2733----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:58.845  INFO   --- [Monitor-online-session-fetch-1/traceId:e722c73d8311740d/time:1717429858844] DB                                       : {traceId:ac33db3755324a} ----sql@sys->basedata#con2734----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:58.846  INFO   --- [Monitor-online-session-fetch-2/traceId:7710f2489ffd79fa/time:1717429858845] DB                                       : {traceId:8fc66c1875759198} ----sql@sys->basedata#con2735----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:50:58.848  INFO   --- [Monitor-online-session-fetch-3/traceId:dcf233dd191a126d/time:1717429858847] DB                                       : {traceId:d29f97bd675ab6} ----sql@sys->basedata#con2736----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:03.137  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:51:03.137+08:00
+2024-06-03 23:51:03.137  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:51:03.137+08:00
+2024-06-03 23:51:08.959  INFO   --- [Monitor-online-session-fetch-1/traceId:5c2420de21b52716/time:1717429868958] DB                                       : {traceId:73b695cbcf8f34d3} ----sql@sys->basedata#con2737----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:08.960  INFO   --- [Monitor-online-session-fetch-2/traceId:527ce28b29a23796/time:1717429868959] DB                                       : {traceId:997843d779e7159e} ----sql@sys->basedata#con2738----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:08.962  INFO   --- [Monitor-online-session-fetch-3/traceId:9f4900e56a5a67e4/time:1717429868961] DB                                       : {traceId:9dd072e9cedbe26} ----sql@sys->basedata#con2739----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:19.082  INFO   --- [Monitor-online-session-fetch-1/traceId:65c17f2c957fe245/time:1717429879081] DB                                       : {traceId:c1c720aeb7246119} ----sql@sys->basedata#con2740----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:19.083  INFO   --- [Monitor-online-session-fetch-2/traceId:7824eafc08bf715c/time:1717429879082] DB                                       : {traceId:3fead3963ebf1535} ----sql@sys->basedata#con2741----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:19.084  INFO   --- [Monitor-online-session-fetch-3/traceId:4e01004f7d18b637/time:1717429879083] DB                                       : {traceId:8f483218c0d97c49} ----sql@sys->basedata#con2742----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:29.205  INFO   --- [Monitor-online-session-fetch-1/traceId:23ff0bf61eb5ecb4/time:1717429889204] DB                                       : {traceId:48c0ff69f1841ad2} ----sql@sys->basedata#con2743----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:29.207  INFO   --- [Monitor-online-session-fetch-2/traceId:4e88ea79fccb6461/time:1717429889205] DB                                       : {traceId:3068a4353493e579} ----sql@sys->basedata#con2744----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:29.210  INFO   --- [Monitor-online-session-fetch-3/traceId:b85da895dad2c94d/time:1717429889207] DB                                       : {traceId:adf8de0afbdd774b} ----sql@sys->basedata#con2745----
+#cost:2ms include(getconnection:1ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:32.562  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:51:33.137  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:51:33.137+08:00
+2024-06-03 23:51:33.137  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:51:33.137+08:00
+2024-06-03 23:51:39.316  INFO   --- [Monitor-online-session-fetch-1/traceId:717dbbc3cf8ebd87/time:1717429899315] DB                                       : {traceId:4510b7b943905d33} ----sql@sys->basedata#con2746----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:39.317  INFO   --- [Monitor-online-session-fetch-2/traceId:676c64b2aaa3071d/time:1717429899316] DB                                       : {traceId:1aa0deab22eddcfc} ----sql@sys->basedata#con2747----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:39.318  INFO   --- [Monitor-online-session-fetch-3/traceId:df168241f69cb179/time:1717429899317] DB                                       : {traceId:3afd13a3b3ca3657} ----sql@sys->basedata#con2748----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:49.429  INFO   --- [Monitor-online-session-fetch-1/traceId:a96b460fc39a17c7/time:1717429909428] DB                                       : {traceId:39685eb24d82699f} ----sql@sys->basedata#con2749----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:49.431  INFO   --- [Monitor-online-session-fetch-2/traceId:5e09aa22f59f2a0b/time:1717429909429] DB                                       : {traceId:4aca50408eae33bb} ----sql@sys->basedata#con2750----
+#cost:2ms include(getconnection:0ms, result_handle:0ms, statement.execute:2ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:49.433  INFO   --- [Monitor-online-session-fetch-3/traceId:d78c99af8797f608/time:1717429909432] DB                                       : {traceId:f45f6dbf82917271} ----sql@sys->basedata#con2751----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:59.544  INFO   --- [Monitor-online-session-fetch-1/traceId:6be357948c301d1e/time:1717429919543] DB                                       : {traceId:54b353fd6b877bbf} ----sql@sys->basedata#con2752----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:59.545  INFO   --- [Monitor-online-session-fetch-2/traceId:ec7809db06e61e6d/time:1717429919544] DB                                       : {traceId:71057795405b757f} ----sql@sys->basedata#con2753----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:51:59.545  INFO   --- [Monitor-online-session-fetch-3/traceId:d52ac28abb98d8fa/time:1717429919545] DB                                       : {traceId:6629b43340455b29} ----sql@sys->basedata#con2754----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:03.138  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:52:03.138+08:00
+2024-06-03 23:52:03.138  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:52:03.138+08:00
+2024-06-03 23:52:09.643  INFO   --- [Monitor-online-session-fetch-1/traceId:27a05feca292a1fe/time:1717429929642] DB                                       : {traceId:fffa61fecff7c210} ----sql@sys->basedata#con2755----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:09.644  INFO   --- [Monitor-online-session-fetch-2/traceId:9e112fe74a45049d/time:1717429929644] DB                                       : {traceId:6a945f48516932b3} ----sql@sys->basedata#con2756----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:09.645  INFO   --- [Monitor-online-session-fetch-3/traceId:ee4a639f7a19fc2d/time:1717429929644] DB                                       : {traceId:e636cdd7b6f65955} ----sql@sys->basedata#con2757----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:19.745  INFO   --- [Monitor-online-session-fetch-1/traceId:154328c0bf8c809/time:1717429939743] DB                                       : {traceId:62b72a2feda3b99c} ----sql@sys->basedata#con2758----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:19.746  INFO   --- [Monitor-online-session-fetch-2/traceId:54ac793135fa4187/time:1717429939745] DB                                       : {traceId:8dfaf2fc46ef8081} ----sql@sys->basedata#con2759----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:19.747  INFO   --- [Monitor-online-session-fetch-3/traceId:4ef0d6ce0b318829/time:1717429939746] DB                                       : {traceId:197ee44d6d125dfd} ----sql@sys->basedata#con2760----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:29.856  INFO   --- [Monitor-online-session-fetch-1/traceId:145ac8d32de1aa96/time:1717429949854] DB                                       : {traceId:4ccbf3a767cda02c} ----sql@sys->basedata#con2761----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:29.857  INFO   --- [Monitor-online-session-fetch-2/traceId:63be70c6a19e07/time:1717429949856] DB                                       : {traceId:617a0f711e386c38} ----sql@sys->basedata#con2762----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:29.858  INFO   --- [Monitor-online-session-fetch-3/traceId:8c9470e76f00567d/time:1717429949857] DB                                       : {traceId:f7a71caa3a18d814} ----sql@sys->basedata#con2763----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:32.563  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:52:32.757  INFO   --- [BOSSchedule-ServiceDaemo/traceId:804dc732637c311/time:1717428452625] k.bos.schedule.executor.ScheduleService  : {traceId:804dc732637c311} Schedule***未开启mq服务,该节点不进行调度选举
+2024-06-03 23:52:33.138  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:52:33.138+08:00
+2024-06-03 23:52:33.138  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:52:33.138+08:00
+2024-06-03 23:52:39.966  INFO   --- [Monitor-online-session-fetch-1/traceId:4d93107ceb3b94a4/time:1717429959965] DB                                       : {traceId:d56335dcc08639f4} ----sql@sys->basedata#con2764----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:39.968  INFO   --- [Monitor-online-session-fetch-2/traceId:f7fe97436e383e71/time:1717429959967] DB                                       : {traceId:4744ffcb6c018f57} ----sql@sys->basedata#con2765----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:39.969  INFO   --- [Monitor-online-session-fetch-3/traceId:4bf07179f3113a72/time:1717429959968] DB                                       : {traceId:aad30922df9e013} ----sql@sys->basedata#con2766----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:50.076  INFO   --- [Monitor-online-session-fetch-1/traceId:97d2047b978300e0/time:1717429970075] DB                                       : {traceId:d6f851c8993d455b} ----sql@sys->basedata#con2767----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:50.077  INFO   --- [Monitor-online-session-fetch-2/traceId:7068b97f7f196df4/time:1717429970076] DB                                       : {traceId:a1ad009ca641226e} ----sql@sys->basedata#con2768----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:52:50.078  INFO   --- [Monitor-online-session-fetch-3/traceId:e840f27191e6da0/time:1717429970077] DB                                       : {traceId:368e8e108f0ed1b7} ----sql@sys->basedata#con2769----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:00.201  INFO   --- [Monitor-online-session-fetch-1/traceId:e68d4f8a55ad3f6f/time:1717429980199] DB                                       : {traceId:dae27bfe7fe997af} ----sql@sys->basedata#con2770----
+#cost:2ms include(getconnection:1ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:00.203  INFO   --- [Monitor-online-session-fetch-2/traceId:52dec48aa15ee850/time:1717429980202] DB                                       : {traceId:640b49b404232bdd} ----sql@sys->basedata#con2771----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:00.204  INFO   --- [Monitor-online-session-fetch-3/traceId:19ba2c727a83124b/time:1717429980203] DB                                       : {traceId:42c22bc8e78dfb3f} ----sql@sys->basedata#con2772----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:03.139  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:53:03.139+08:00
+2024-06-03 23:53:03.139  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:53:03.139+08:00
+2024-06-03 23:53:10.445  INFO   --- [Monitor-online-session-fetch-1/traceId:316226bf19ccbbd6/time:1717429990444] DB                                       : {traceId:1dc60375e1fd396b} ----sql@sys->basedata#con2773----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:10.446  INFO   --- [Monitor-online-session-fetch-2/traceId:6611437dacb6f575/time:1717429990445] DB                                       : {traceId:cdc489b06d044d11} ----sql@sys->basedata#con2774----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:10.447  INFO   --- [Monitor-online-session-fetch-3/traceId:5fd01df19fe6b734/time:1717429990446] DB                                       : {traceId:b11e41893876d530} ----sql@sys->basedata#con2775----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:13.368  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  acquire lock AlarmRecordTask-check_...
+2024-06-03 23:53:13.398  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  acquired lock AlarmRecordTask-check_
+2024-06-03 23:53:13.399  WARN   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  MonitorDbManager getDbConfig from zk exception
+java.lang.NullPointerException: null
+	at java.lang.String.<init>(String.java:515)
+	at kd.bos.government.metadata.db.DBHelper.getDbConfig(DBHelper.java:72)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:64)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:53:13.399  INFO   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  zk为空，再次去MC中查询存储库配置！
+2024-06-03 23:53:13.399  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据的URL请求= http://127.0.0.1:8090/kapi/app/mc/DataSaveGetService ,appJson=application/json,参数为= {DCID=cosmic, key=/runtime/monitor/config/dbConfig},
+2024-06-03 23:53:13.407  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据：{"errorcode":626,"description":"未发现相关数据","success":true}
+2024-06-03 23:53:13.407  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据：{"errorcode":626,"description":"未发现相关数据","success":true}
+2024-06-03 23:53:13.407 ERROR   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  
+kd.bos.exception.KDException: 
+	at kd.bos.dc.utils.MCApiUtil.getMCAPIInfo(MCApiUtil.java:113)
+	at kd.bos.dc.utils.MCApiUtil.getMCAPIInfo(MCApiUtil.java:61)
+	at kd.bos.government.metadata.db.DBHelper.getDbConfig(DBHelper.java:95)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:64)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:53:13.407 ERROR   --- [pool-5-thread-2] k.b.government.metadata.db.DBStatement   :  DBStatement executeQuery error:
+java.lang.NullPointerException: null
+	at kd.bos.government.metadata.db.DBHelper.getDbUrl(DBHelper.java:310)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:65)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:53:13.407 ERROR   --- [pool-5-thread-2] k.b.e.a.a.record.task.AlarmRecordTask    :  AlarmRecordWork-check error:
+kd.bos.exception.KDException: java.lang.NullPointerException
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:98)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:53:13.407  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  release lock AlarmRecordTask-check_...
+2024-06-03 23:53:20.530  INFO   --- [Monitor-online-session-fetch-1/traceId:f45db1baa04fa883/time:1717430000529] DB                                       : {traceId:9b596c10c11fafcb} ----sql@sys->basedata#con2776----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:20.531  INFO   --- [Monitor-online-session-fetch-2/traceId:52fe3076ea4c9b46/time:1717430000530] DB                                       : {traceId:489cf06b2b09423} ----sql@sys->basedata#con2777----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:20.532  INFO   --- [Monitor-online-session-fetch-3/traceId:fd5a9d1afd3d089b/time:1717430000531] DB                                       : {traceId:ce900603d9f63550} ----sql@sys->basedata#con2778----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:30.609  INFO   --- [Monitor-online-session-fetch-1/traceId:5b1df9923e386be5/time:1717430010608] DB                                       : {traceId:7921fa38042396ef} ----sql@sys->basedata#con2779----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:30.610  INFO   --- [Monitor-online-session-fetch-2/traceId:4e52b134116a0455/time:1717430010609] DB                                       : {traceId:9ff0c579dcfeb786} ----sql@sys->basedata#con2780----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:30.611  INFO   --- [Monitor-online-session-fetch-3/traceId:8e9c927382c392f9/time:1717430010610] DB                                       : {traceId:16238c26bad57fc1} ----sql@sys->basedata#con2781----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:32.563  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:53:33.140  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:53:33.140+08:00
+2024-06-03 23:53:33.140  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:53:33.140+08:00
+2024-06-03 23:53:40.692  INFO   --- [Monitor-online-session-fetch-1/traceId:f448e06de3f9966f/time:1717430020691] DB                                       : {traceId:ad92794285f486e2} ----sql@sys->basedata#con2782----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:40.693  INFO   --- [Monitor-online-session-fetch-2/traceId:2e006926bb7916a8/time:1717430020692] DB                                       : {traceId:57ead26dada27be2} ----sql@sys->basedata#con2783----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:40.694  INFO   --- [Monitor-online-session-fetch-3/traceId:e77e7ae305a4708d/time:1717430020693] DB                                       : {traceId:e847095607d10222} ----sql@sys->basedata#con2784----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:50.771  INFO   --- [Monitor-online-session-fetch-1/traceId:bc504efccbecbda7/time:1717430030770] DB                                       : {traceId:92e8b33a5f4eaf85} ----sql@sys->basedata#con2785----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:50.772  INFO   --- [Monitor-online-session-fetch-2/traceId:75474d35cc237d2a/time:1717430030771] DB                                       : {traceId:bfe4557dd2a2e8bc} ----sql@sys->basedata#con2786----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:53:50.773  INFO   --- [Monitor-online-session-fetch-3/traceId:d571805bfc82ccb5/time:1717430030772] DB                                       : {traceId:6ec26cbdceedd7fb} ----sql@sys->basedata#con2787----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:00.847  INFO   --- [Monitor-online-session-fetch-1/traceId:aadd33e55b045649/time:1717430040846] DB                                       : {traceId:64c93db76aa03aba} ----sql@sys->basedata#con2788----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:00.848  INFO   --- [Monitor-online-session-fetch-2/traceId:650c6dfea953b5da/time:1717430040847] DB                                       : {traceId:7ae50d19105575e5} ----sql@sys->basedata#con2789----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:00.849  INFO   --- [Monitor-online-session-fetch-3/traceId:3595c6cca3370b9a/time:1717430040848] DB                                       : {traceId:d010a56457632453} ----sql@sys->basedata#con2790----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:03.140  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:54:03.140+08:00
+2024-06-03 23:54:03.140  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:54:03.140+08:00
+2024-06-03 23:54:10.929  INFO   --- [Monitor-online-session-fetch-1/traceId:df2141784e8207e0/time:1717430050928] DB                                       : {traceId:84a33bc46df2d67b} ----sql@sys->basedata#con2791----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:10.930  INFO   --- [Monitor-online-session-fetch-2/traceId:3e63b44a60181272/time:1717430050929] DB                                       : {traceId:6d3e09d4a0ec64d9} ----sql@sys->basedata#con2792----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:10.931  INFO   --- [Monitor-online-session-fetch-3/traceId:97d47a08515f8166/time:1717430050930] DB                                       : {traceId:1da7987eb76058d7} ----sql@sys->basedata#con2793----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:21.010  INFO   --- [Monitor-online-session-fetch-1/traceId:c4f71f525293f448/time:1717430061009] DB                                       : {traceId:b28217ce3be7d7e} ----sql@sys->basedata#con2794----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:21.010  INFO   --- [Monitor-online-session-fetch-2/traceId:3cd07c7bdd0cae2c/time:1717430061010] DB                                       : {traceId:78b5d7d2ffc251ff} ----sql@sys->basedata#con2795----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:21.011  INFO   --- [Monitor-online-session-fetch-3/traceId:536115e6322b95a7/time:1717430061010] DB                                       : {traceId:daf8cffa2604e0d2} ----sql@sys->basedata#con2796----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:31.095  INFO   --- [Monitor-online-session-fetch-1/traceId:e665eef1485614c3/time:1717430071094] DB                                       : {traceId:6a3a8d5287e3d7d9} ----sql@sys->basedata#con2797----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:31.096  INFO   --- [Monitor-online-session-fetch-2/traceId:531e7f09d34332b2/time:1717430071096] DB                                       : {traceId:ab6e0e19d019e716} ----sql@sys->basedata#con2798----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:31.097  INFO   --- [Monitor-online-session-fetch-3/traceId:9e343d285500442e/time:1717430071097] DB                                       : {traceId:d24e457813e36fbc} ----sql@sys->basedata#con2799----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:32.564  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:54:33.142  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:54:33.142+08:00
+2024-06-03 23:54:33.142  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:54:33.142+08:00
+2024-06-03 23:54:41.171  INFO   --- [Monitor-online-session-fetch-1/traceId:8f457ad059e81787/time:1717430081170] DB                                       : {traceId:58712a5a207a620e} ----sql@sys->basedata#con2800----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:41.172  INFO   --- [Monitor-online-session-fetch-2/traceId:9a661e3d5d7bbd1e/time:1717430081171] DB                                       : {traceId:ea256dca5de0d970} ----sql@sys->basedata#con2801----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:41.173  INFO   --- [Monitor-online-session-fetch-3/traceId:982b39570b9e1319/time:1717430081172] DB                                       : {traceId:f07301eb4f0bc557} ----sql@sys->basedata#con2802----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:51.245  INFO   --- [Monitor-online-session-fetch-1/traceId:d51adf51961e1a81/time:1717430091244] DB                                       : {traceId:81782e031c5e97d3} ----sql@sys->basedata#con2803----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:51.246  INFO   --- [Monitor-online-session-fetch-2/traceId:6f1c27364078811c/time:1717430091245] DB                                       : {traceId:bbb9926724eef501} ----sql@sys->basedata#con2804----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:54:51.247  INFO   --- [Monitor-online-session-fetch-3/traceId:190f20bfe48f81ee/time:1717430091246] DB                                       : {traceId:9046e71a5033e164} ----sql@sys->basedata#con2805----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:01.322  INFO   --- [Monitor-online-session-fetch-1/traceId:bb47e22963eb7c88/time:1717430101321] DB                                       : {traceId:6494400b114c115f} ----sql@sys->basedata#con2806----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:01.323  INFO   --- [Monitor-online-session-fetch-2/traceId:1e7399e99aa01773/time:1717430101322] DB                                       : {traceId:112818b30f9b829c} ----sql@sys->basedata#con2807----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:01.324  INFO   --- [Monitor-online-session-fetch-3/traceId:bd357dee77213adb/time:1717430101323] DB                                       : {traceId:91c6b81693901c42} ----sql@sys->basedata#con2808----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:03.142  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:55:03.142+08:00
+2024-06-03 23:55:03.142  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:55:03.142+08:00
+2024-06-03 23:55:11.412  INFO   --- [Monitor-online-session-fetch-1/traceId:4fc63775bf75bac1/time:1717430111411] DB                                       : {traceId:9934a6116a7ca848} ----sql@sys->basedata#con2809----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:11.414  INFO   --- [Monitor-online-session-fetch-2/traceId:d0ac085e67e4bf8f/time:1717430111413] DB                                       : {traceId:de19ef19c502656f} ----sql@sys->basedata#con2810----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:11.415  INFO   --- [Monitor-online-session-fetch-3/traceId:a820acf393b59f87/time:1717430111414] DB                                       : {traceId:dc93563f09f0f7a} ----sql@sys->basedata#con2811----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:21.494  INFO   --- [Monitor-online-session-fetch-1/traceId:84fa4829316e54d6/time:1717430121493] DB                                       : {traceId:c70e78a6730b8e69} ----sql@sys->basedata#con2812----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:21.495  INFO   --- [Monitor-online-session-fetch-2/traceId:c28523db81fb25ee/time:1717430121494] DB                                       : {traceId:bfaac67a7ec839b} ----sql@sys->basedata#con2813----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:21.495  INFO   --- [Monitor-online-session-fetch-3/traceId:e914e2eda8f8412d/time:1717430121495] DB                                       : {traceId:4339ca0b382f949e} ----sql@sys->basedata#con2814----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:31.587  INFO   --- [Monitor-online-session-fetch-1/traceId:8147c435b8fe773c/time:1717430131585] DB                                       : {traceId:94a5bfcf14a30798} ----sql@sys->basedata#con2815----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:31.588  INFO   --- [Monitor-online-session-fetch-2/traceId:60644ae3e25b1090/time:1717430131587] DB                                       : {traceId:dd2cb86ac57e8202} ----sql@sys->basedata#con2816----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:31.589  INFO   --- [Monitor-online-session-fetch-3/traceId:6fd3887cb1218ed1/time:1717430131588] DB                                       : {traceId:c0dfa9f096128b21} ----sql@sys->basedata#con2817----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:32.564  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:55:33.143  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:55:33.143+08:00
+2024-06-03 23:55:33.143  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:55:33.143+08:00
+2024-06-03 23:55:41.676  INFO   --- [Monitor-online-session-fetch-1/traceId:c6981adac2be6a0a/time:1717430141674] DB                                       : {traceId:bcb89cd6807bf2da} ----sql@sys->basedata#con2818----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:41.677  INFO   --- [Monitor-online-session-fetch-2/traceId:b1679d8d66206665/time:1717430141676] DB                                       : {traceId:1251b0f3dd80664f} ----sql@sys->basedata#con2819----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:41.677  INFO   --- [Monitor-online-session-fetch-3/traceId:b7445be870e80117/time:1717430141677] DB                                       : {traceId:30072bef4ff69ae7} ----sql@sys->basedata#con2820----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:51.755  INFO   --- [Monitor-online-session-fetch-1/traceId:33de5a5a4e66bf84/time:1717430151754] DB                                       : {traceId:ce0247c27ec7fb86} ----sql@sys->basedata#con2821----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:51.756  INFO   --- [Monitor-online-session-fetch-1/traceId:c9de437f93f765b/time:1717430151755] DB                                       : {traceId:8e9b5a14858d0ca6} ----sql@sys->basedata#con2822----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:55:51.756  INFO   --- [Monitor-online-session-fetch-3/traceId:d4c804c9b7e45da6/time:1717430151756] DB                                       : {traceId:10a99035ed394029} ----sql@sys->basedata#con2823----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:01.832  INFO   --- [Monitor-online-session-fetch-2/traceId:604b7238afd03ba4/time:1717430161832] DB                                       : {traceId:df5dcf1f084ee90} ----sql@sys->basedata#con2824----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:01.833  INFO   --- [Monitor-online-session-fetch-1/traceId:dd28a14c756f3ec9/time:1717430161833] DB                                       : {traceId:ac403add45a71c41} ----sql@sys->basedata#con2825----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:01.834  INFO   --- [Monitor-online-session-fetch-3/traceId:a16c3c0b90c0b141/time:1717430161833] DB                                       : {traceId:134621897ebf0ce0} ----sql@sys->basedata#con2826----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:03.143  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:56:03.143+08:00
+2024-06-03 23:56:03.143  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:56:03.143+08:00
+2024-06-03 23:56:11.914  INFO   --- [Monitor-online-session-fetch-2/traceId:3331cca1b8dd6ab2/time:1717430171913] DB                                       : {traceId:d7a2aa9dd659f843} ----sql@sys->basedata#con2827----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:11.915  INFO   --- [Monitor-online-session-fetch-1/traceId:3d2a24bc55f43d3f/time:1717430171915] DB                                       : {traceId:b0596d52bf05a02d} ----sql@sys->basedata#con2828----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:11.916  INFO   --- [Monitor-online-session-fetch-3/traceId:e0b2777b7fe763f/time:1717430171915] DB                                       : {traceId:e293aa71e94d17c3} ----sql@sys->basedata#con2829----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:21.990  INFO   --- [Monitor-online-session-fetch-2/traceId:8cf3b56fe67863bf/time:1717430181989] DB                                       : {traceId:5631ee885161539c} ----sql@sys->basedata#con2830----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:21.991  INFO   --- [Monitor-online-session-fetch-1/traceId:953e6c62ac3773fb/time:1717430181991] DB                                       : {traceId:b58d7fd30ea22588} ----sql@sys->basedata#con2831----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:21.992  INFO   --- [Monitor-online-session-fetch-3/traceId:9bb608e8b2be7803/time:1717430181991] DB                                       : {traceId:8408b055b258c46d} ----sql@sys->basedata#con2832----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:32.069  INFO   --- [Monitor-online-session-fetch-2/traceId:28b8e48a423d6762/time:1717430192068] DB                                       : {traceId:1ff6f9c4a9077be4} ----sql@sys->basedata#con2833----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:32.070  INFO   --- [Monitor-online-session-fetch-2/traceId:1ac540bd916ddb9e/time:1717430192069] DB                                       : {traceId:ab0693fab426222a} ----sql@sys->basedata#con2834----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:32.071  INFO   --- [Monitor-online-session-fetch-3/traceId:4728165466db7cd6/time:1717430192070] DB                                       : {traceId:64b39d7c505e241f} ----sql@sys->basedata#con2835----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:32.565  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:56:33.144  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:56:33.144+08:00
+2024-06-03 23:56:33.144  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:56:33.144+08:00
+2024-06-03 23:56:42.150  INFO   --- [Monitor-online-session-fetch-1/traceId:a487b4db1b40c445/time:1717430202149] DB                                       : {traceId:1b1fcdf326507328} ----sql@sys->basedata#con2836----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:42.151  INFO   --- [Monitor-online-session-fetch-2/traceId:f2765a54ade8863e/time:1717430202150] DB                                       : {traceId:6bf078be1b6c2109} ----sql@sys->basedata#con2837----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:42.152  INFO   --- [Monitor-online-session-fetch-3/traceId:d2ef3510cf31c4e/time:1717430202151] DB                                       : {traceId:77bb18847dc94116} ----sql@sys->basedata#con2838----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:52.229  INFO   --- [Monitor-online-session-fetch-1/traceId:d37595611a9ae230/time:1717430212228] DB                                       : {traceId:9867d8826310db4c} ----sql@sys->basedata#con2839----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:52.230  INFO   --- [Monitor-online-session-fetch-2/traceId:5ab7cc3b17d8b965/time:1717430212229] DB                                       : {traceId:4f2a75c04eaf6148} ----sql@sys->basedata#con2840----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:56:52.231  INFO   --- [Monitor-online-session-fetch-3/traceId:3090c6c1c7a6235a/time:1717430212230] DB                                       : {traceId:4778daa8d979f7f6} ----sql@sys->basedata#con2841----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:02.311  INFO   --- [Monitor-online-session-fetch-1/traceId:93695b0fb751c045/time:1717430222310] DB                                       : {traceId:4be604abfd67b0f6} ----sql@sys->basedata#con2842----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:02.312  INFO   --- [Monitor-online-session-fetch-2/traceId:6d65c90940799e9e/time:1717430222311] DB                                       : {traceId:618a850449018a23} ----sql@sys->basedata#con2843----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:02.312  INFO   --- [Monitor-online-session-fetch-3/traceId:50c4f8d6baf9a377/time:1717430222312] DB                                       : {traceId:641b6e1eba9399ab} ----sql@sys->basedata#con2844----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:03.144  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:57:03.144+08:00
+2024-06-03 23:57:03.144  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:57:03.144+08:00
+2024-06-03 23:57:12.427  INFO   --- [Monitor-online-session-fetch-1/traceId:47e29ef11a3fc2ac/time:1717430232426] DB                                       : {traceId:bad99f9638ad9927} ----sql@sys->basedata#con2845----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:12.428  INFO   --- [Monitor-online-session-fetch-2/traceId:871468d80fdaa8ea/time:1717430232427] DB                                       : {traceId:af1bcd5d7c298f83} ----sql@sys->basedata#con2846----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:12.429  INFO   --- [Monitor-online-session-fetch-3/traceId:734718c4d017d81/time:1717430232428] DB                                       : {traceId:5292c6f8cbbeb74d} ----sql@sys->basedata#con2847----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:22.574  INFO   --- [Monitor-online-session-fetch-1/traceId:2b5563ca99e5e6d/time:1717430242573] DB                                       : {traceId:22212a3a5a249a9d} ----sql@sys->basedata#con2848----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:22.575  INFO   --- [Monitor-online-session-fetch-1/traceId:fc27c3368b04079e/time:1717430242574] DB                                       : {traceId:a9e4f4f9ed992e1a} ----sql@sys->basedata#con2849----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:22.576  INFO   --- [Monitor-online-session-fetch-3/traceId:3ec1df7ed1df00c8/time:1717430242575] DB                                       : {traceId:ba61d30f78314993} ----sql@sys->basedata#con2850----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:32.565  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:57:32.652  INFO   --- [Monitor-online-session-fetch-2/traceId:dc22f6eec43e0b04/time:1717430252651] DB                                       : {traceId:5360da6c7b0ea5eb} ----sql@sys->basedata#con2851----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:32.653  INFO   --- [Monitor-online-session-fetch-2/traceId:83ce4b8297bb8459/time:1717430252652] DB                                       : {traceId:ecea2c25e0c52b90} ----sql@sys->basedata#con2852----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:32.654  INFO   --- [Monitor-online-session-fetch-3/traceId:e33e07217e3fc54f/time:1717430252653] DB                                       : {traceId:bb10065c280f0162} ----sql@sys->basedata#con2853----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:32.758  INFO   --- [BOSSchedule-ServiceDaemo/traceId:804dc732637c311/time:1717428452625] k.bos.schedule.executor.ScheduleService  : {traceId:804dc732637c311} Schedule***未开启mq服务,该节点不进行调度选举
+2024-06-03 23:57:33.145  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:57:33.145+08:00
+2024-06-03 23:57:33.145  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:57:33.145+08:00
+2024-06-03 23:57:42.729  INFO   --- [Monitor-online-session-fetch-1/traceId:b697e898eb74c6c/time:1717430262728] DB                                       : {traceId:a7d94d56606ef05c} ----sql@sys->basedata#con2854----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:42.730  INFO   --- [Monitor-online-session-fetch-2/traceId:94de1f78c0006e7c/time:1717430262730] DB                                       : {traceId:1e7e953b2e6b8c03} ----sql@sys->basedata#con2855----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:42.731  INFO   --- [Monitor-online-session-fetch-3/traceId:5c2b4f0f34749fbf/time:1717430262730] DB                                       : {traceId:18ed5a88ff694110} ----sql@sys->basedata#con2856----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:52.820  INFO   --- [Monitor-online-session-fetch-1/traceId:a9ffbb7793742d8c/time:1717430272819] DB                                       : {traceId:3d02db85c3281c75} ----sql@sys->basedata#con2858----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:52.821  INFO   --- [Monitor-online-session-fetch-2/traceId:420cd02e7687b270/time:1717430272821] DB                                       : {traceId:917d3c8c4a3c9176} ----sql@sys->basedata#con2859----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:57:52.822  INFO   --- [Monitor-online-session-fetch-3/traceId:f7cc577782b110ac/time:1717430272821] DB                                       : {traceId:f25daca947bfd15d} ----sql@sys->basedata#con2860----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:02.892  INFO   --- [Monitor-online-session-fetch-1/traceId:cf672288786b1deb/time:1717430282891] DB                                       : {traceId:66e5d70a8ea49863} ----sql@sys->basedata#con2861----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:02.893  INFO   --- [Monitor-online-session-fetch-1/traceId:a72d56eaf4eba60a/time:1717430282892] DB                                       : {traceId:c952bcb7272d4e2a} ----sql@sys->basedata#con2862----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:02.894  INFO   --- [Monitor-online-session-fetch-3/traceId:4f9c906f0f02e1ea/time:1717430282893] DB                                       : {traceId:f5013b09593b05c8} ----sql@sys->basedata#con2863----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:03.145  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:58:03.145+08:00
+2024-06-03 23:58:03.146  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:58:03.146+08:00
+2024-06-03 23:58:12.966  INFO   --- [Monitor-online-session-fetch-2/traceId:6fc0bcea9cc23e62/time:1717430292964] DB                                       : {traceId:b63c9b74ef757179} ----sql@sys->basedata#con2864----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:12.967  INFO   --- [Monitor-online-session-fetch-1/traceId:d343a9ae14248f64/time:1717430292966] DB                                       : {traceId:7d51cfa5307328ec} ----sql@sys->basedata#con2865----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:12.967  INFO   --- [Monitor-online-session-fetch-3/traceId:367c1ee3d85754e9/time:1717430292967] DB                                       : {traceId:9a887c3043f4770e} ----sql@sys->basedata#con2866----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:13.415  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  acquire lock AlarmRecordTask-check_...
+2024-06-03 23:58:13.440  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  acquired lock AlarmRecordTask-check_
+2024-06-03 23:58:13.441  WARN   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  MonitorDbManager getDbConfig from zk exception
+java.lang.NullPointerException: null
+	at java.lang.String.<init>(String.java:515)
+	at kd.bos.government.metadata.db.DBHelper.getDbConfig(DBHelper.java:72)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:64)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:58:13.441  INFO   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  zk为空，再次去MC中查询存储库配置！
+2024-06-03 23:58:13.441  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据的URL请求= http://127.0.0.1:8090/kapi/app/mc/DataSaveGetService ,appJson=application/json,参数为= {DCID=cosmic, key=/runtime/monitor/config/dbConfig},
+2024-06-03 23:58:13.447  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据：{"errorcode":626,"description":"未发现相关数据","success":true}
+2024-06-03 23:58:13.447  INFO   --- [pool-5-thread-2] kd.bos.dc.utils.MCApiUtil                :  获取管理中心数据：{"errorcode":626,"description":"未发现相关数据","success":true}
+2024-06-03 23:58:13.447 ERROR   --- [pool-5-thread-2] kd.bos.government.metadata.db.DBHelper   :  
+kd.bos.exception.KDException: 
+	at kd.bos.dc.utils.MCApiUtil.getMCAPIInfo(MCApiUtil.java:113)
+	at kd.bos.dc.utils.MCApiUtil.getMCAPIInfo(MCApiUtil.java:61)
+	at kd.bos.government.metadata.db.DBHelper.getDbConfig(DBHelper.java:95)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:64)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:58:13.447 ERROR   --- [pool-5-thread-2] k.b.government.metadata.db.DBStatement   :  DBStatement executeQuery error:
+java.lang.NullPointerException: null
+	at kd.bos.government.metadata.db.DBHelper.getDbUrl(DBHelper.java:310)
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:65)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:58:13.447 ERROR   --- [pool-5-thread-2] k.b.e.a.a.record.task.AlarmRecordTask    :  AlarmRecordWork-check error:
+kd.bos.exception.KDException: java.lang.NullPointerException
+	at kd.bos.government.metadata.db.DBStatement.executeQuery(DBStatement.java:98)
+	at kd.bos.eye.api.alarm.db.AlarmRecordDbHelper.findRecordInfosByState(AlarmRecordDbHelper.java:397)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.checkAlarmRecords(AlarmRecordTask.java:45)
+	at kd.bos.eye.api.alarm.record.task.AlarmRecordTask.run(AlarmRecordTask.java:36)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 23:58:13.447  INFO   --- [pool-5-thread-2] kd.bos.dlock.curator.CuratorLockManager  :  release lock AlarmRecordTask-check_...
+2024-06-03 23:58:23.045  INFO   --- [Monitor-online-session-fetch-2/traceId:5a66ad62c4a9b48b/time:1717430303044] DB                                       : {traceId:933ad3bfe3fb38fc} ----sql@sys->basedata#con2867----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:23.046  INFO   --- [Monitor-online-session-fetch-1/traceId:1e97178630b0891e/time:1717430303045] DB                                       : {traceId:7b18a9f4766d3115} ----sql@sys->basedata#con2868----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:23.046  INFO   --- [Monitor-online-session-fetch-3/traceId:f659f539eb84b2ce/time:1717430303046] DB                                       : {traceId:b85cc3eff12564c7} ----sql@sys->basedata#con2869----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:32.566  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:58:33.121  INFO   --- [Monitor-online-session-fetch-2/traceId:6795c99059a03a27/time:1717430313120] DB                                       : {traceId:205f4211c1ac56d0} ----sql@sys->basedata#con2870----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:33.122  INFO   --- [Monitor-online-session-fetch-1/traceId:8508914db1461391/time:1717430313122] DB                                       : {traceId:a097a7d7b9a187d8} ----sql@sys->basedata#con2871----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:33.123  INFO   --- [Monitor-online-session-fetch-3/traceId:ab0ece89c0ca8d5b/time:1717430313122] DB                                       : {traceId:bbe8df96f948ca33} ----sql@sys->basedata#con2872----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:33.147  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:58:33.147+08:00
+2024-06-03 23:58:33.147  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:58:33.147+08:00
+2024-06-03 23:58:43.199  INFO   --- [Monitor-online-session-fetch-2/traceId:a2d267c6e13e3e21/time:1717430323199] DB                                       : {traceId:10449e38c1ff5a8f} ----sql@sys->basedata#con2873----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:43.200  INFO   --- [Monitor-online-session-fetch-1/traceId:df7a7574ae6818cb/time:1717430323200] DB                                       : {traceId:b40394aafa1ce03e} ----sql@sys->basedata#con2874----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:43.201  INFO   --- [Monitor-online-session-fetch-3/traceId:fcc1568236a8c403/time:1717430323200] DB                                       : {traceId:242a952d4b8dc498} ----sql@sys->basedata#con2875----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:53.279  INFO   --- [Monitor-online-session-fetch-2/traceId:cfb8dbb7988a85da/time:1717430333278] DB                                       : {traceId:db64455157d3eb61} ----sql@sys->basedata#con2876----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:53.280  INFO   --- [Monitor-online-session-fetch-1/traceId:3e5cebb03361405c/time:1717430333279] DB                                       : {traceId:a6df22fd9566eb49} ----sql@sys->basedata#con2877----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:58:53.281  INFO   --- [Monitor-online-session-fetch-3/traceId:f70b62a6e0502b6e/time:1717430333280] DB                                       : {traceId:a5c97f292dcba9e4} ----sql@sys->basedata#con2878----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:03.148  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:59:03.148+08:00
+2024-06-03 23:59:03.148  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:59:03.148+08:00
+2024-06-03 23:59:03.361  INFO   --- [Monitor-online-session-fetch-2/traceId:b0c0e0737abcf882/time:1717430343359] DB                                       : {traceId:9b50f8c9b2f0d3fd} ----sql@sys->basedata#con2879----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:03.361  INFO   --- [Monitor-online-session-fetch-1/traceId:78fb68660ddb4176/time:1717430343361] DB                                       : {traceId:eca48f25a12d2d7c} ----sql@sys->basedata#con2880----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:03.362  INFO   --- [Monitor-online-session-fetch-3/traceId:2a65c7cbc1d93420/time:1717430343362] DB                                       : {traceId:7b558c15d886a816} ----sql@sys->basedata#con2881----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:13.456  INFO   --- [Monitor-online-session-fetch-2/traceId:c10ed7c958ae501f/time:1717430353455] DB                                       : {traceId:46a3a71dfff0102d} ----sql@sys->basedata#con2882----
+#cost:1ms include(getconnection:1ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:13.457  INFO   --- [Monitor-online-session-fetch-1/traceId:294c3df59970befa/time:1717430353457] DB                                       : {traceId:36b6e7ff24ac7053} ----sql@sys->basedata#con2883----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:13.458  INFO   --- [Monitor-online-session-fetch-3/traceId:275d4cbfd666831e/time:1717430353457] DB                                       : {traceId:4371220eeab32edc} ----sql@sys->basedata#con2884----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:23.542  INFO   --- [Monitor-online-session-fetch-2/traceId:e9ed476cf78bbf44/time:1717430363541] DB                                       : {traceId:da4af2f42a76288b} ----sql@sys->basedata#con2885----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:23.543  INFO   --- [Monitor-online-session-fetch-1/traceId:5b5fa39c1c7a0047/time:1717430363542] DB                                       : {traceId:f75fcc9e89f94648} ----sql@sys->basedata#con2886----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:23.544  INFO   --- [Monitor-online-session-fetch-3/traceId:15e5451e7ffbc294/time:1717430363544] DB                                       : {traceId:2871479b1e518a0} ----sql@sys->basedata#con2887----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:32.566  INFO   --- [BOSSchedule-ObservableDataFilter-TaskTrace-Thread/traceId:6c0f67e2045e7cd2/time:1717428452447] k.b.s.n.o.filter.TaskTraceFilter         : {traceId:6c0f67e2045e7cd2} Schedule***TaskTraceFilter task trace costTime : 0
+2024-06-03 23:59:33.148  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.AbstractObservableDataFilter : {traceId:ebbc8a30dffc6227} Schedule***ObservableDataFilter reportTime = 2024-06-03T23:59:33.148+08:00
+2024-06-03 23:59:33.148  INFO   --- [BOSSchedule-ObservableDataFilter-Thread/traceId:ebbc8a30dffc6227/time:1717428452412] k.b.s.n.o.f.ExecutorServerStatusFilter   : {traceId:ebbc8a30dffc6227} Schedule***exeMachineReportTime = 2024-06-03T23:59:33.148+08:00
+2024-06-03 23:59:33.620  INFO   --- [Monitor-online-session-fetch-2/traceId:d17d039fe9456543/time:1717430373619] DB                                       : {traceId:9088909c8d11e7a8} ----sql@sys->basedata#con2888----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:33.621  INFO   --- [Monitor-online-session-fetch-1/traceId:f10dabbd9fa73c2d/time:1717430373620] DB                                       : {traceId:2d289ebb8f7de0ac} ----sql@sys->basedata#con2889----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:33.621  INFO   --- [Monitor-online-session-fetch-3/traceId:40da3c90e4eea200/time:1717430373621] DB                                       : {traceId:6d4c0f317d884942} ----sql@sys->basedata#con2890----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:43.695  INFO   --- [Monitor-online-session-fetch-2/traceId:cb222d3875df4953/time:1717430383693] DB                                       : {traceId:985941dcda7238e3} ----sql@sys->basedata#con2891----
+#cost:2ms include(getconnection:1ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:43.696  INFO   --- [Monitor-online-session-fetch-1/traceId:4738e73cc2302e21/time:1717430383695] DB                                       : {traceId:1944c45cb6de5626} ----sql@sys->basedata#con2892----
+#cost:1ms include(getconnection:0ms, result_handle:1ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:43.696  INFO   --- [Monitor-online-session-fetch-3/traceId:882130f0bc3b808f/time:1717430383696] DB                                       : {traceId:a20b6cfc98c36d84} ----sql@sys->basedata#con2893----
+#cost:0ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:53.775  INFO   --- [Monitor-online-session-fetch-2/traceId:c5e1318f0ba518b/time:1717430393774] DB                                       : {traceId:cc3bfc302d99f3ca} ----sql@sys->basedata#con2894----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:53.776  INFO   --- [Monitor-online-session-fetch-1/traceId:47803f1a31d319ed/time:1717430393775] DB                                       : {traceId:bc220652255bf43f} ----sql@sys->basedata#con2895----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:1ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
+2024-06-03 23:59:53.777  INFO   --- [Monitor-online-session-fetch-3/traceId:1e6d793fc6e9a161/time:1717430393776] DB                                       : {traceId:6f18dfe6cc9d4d06} ----sql@sys->basedata#con2896----
+#cost:1ms include(getconnection:0ms, result_handle:0ms, statement.execute:0ms ...)
+select fclient, count(*) as num from t_bas_session_history where flogouttime is null group by fclient
+
